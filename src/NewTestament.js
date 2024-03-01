@@ -9,7 +9,12 @@ function NewTestament(){
     useEffect(()=>{
         fetch("http://localhost:3000/verses")
         .then(r=>r.json())
-        .then(verses => setVerses(verses))
+        .then(verses => {
+            const newT = verses.filter((verse)=>{
+                return verse.testament.toLowerCase() === "new"
+            })
+            setVerses(newT)
+        })
       }, [])
 
     return (
@@ -18,6 +23,7 @@ function NewTestament(){
                 <NavBar />  
             </header>
             <main>
+                <h2> Your Saved New Testament Verses: </h2>
                 {verses.map((verse)=>(
                     <VerseCard key={verse.reference} verse={verse} />
                 ))}
