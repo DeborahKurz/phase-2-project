@@ -2,6 +2,9 @@
 
 function Form(){
     console.log("form")
+    return (
+        <h1>Form renders here</h1>
+    )
 }
 
 export default Form;

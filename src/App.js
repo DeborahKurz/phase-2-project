@@ -1,9 +1,16 @@
 import './App.css';
+import NavBar from "./NavBar.js";
+import Form from "./Form.js";
 
 function App() {
   return (
     <div className="App">
-      Hello
+      <header>
+        <NavBar />  
+      </header>
+      <main>
+        <Form />
+      </main>
     </div>
   );
 }
@@ -13,7 +20,6 @@ export default App;
 //COMMIT commit Commit!
 
 /*
-Create Components (5 needed):
 
 Get Project Working:
   1. Create NavBar.js & set up to display routes

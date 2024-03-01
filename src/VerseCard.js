@@ -2,6 +2,9 @@
 
 function VerseCard(){
     console.log("verse card")
+    return (
+        <h1>VerseCard renders here</h1>
+    )
 }
 
 export default VerseCard;
