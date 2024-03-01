@@ -14,10 +14,6 @@ export default App;
 
 /*
 
-create routes.js file and define routes (3 needed):
-  1."Home" aka App.js "/"  
-  2. Old Testament Tab "/oldtestament"
-  3. New Testament Tab "/newtestament"
 finish setting up routes in index.js
 Create Components (5 needed):
   (DONE) 1. App.js

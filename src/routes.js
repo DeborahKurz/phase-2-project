@@ -16,3 +16,5 @@ const routes = [
         element: <NewTestament />
     }
 ]
+
+export default routes;
