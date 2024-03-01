@@ -13,7 +13,6 @@ export default App;
 //COMMIT commit Commit!
 
 /*
-Remove uncessary files.
 Define data in db.json
 create routes.js file and define routes (3 needed):
   1."Home" aka App.js "/"  
