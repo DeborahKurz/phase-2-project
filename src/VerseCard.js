@@ -3,6 +3,7 @@
 
 function VerseCard({verse}){
     console.log("verse card")
+    console.log(verse)
 
     return (
         <div>
