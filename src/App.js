@@ -22,8 +22,8 @@ export default App;
 /*
 
 Get Project Working:
-  1. Create NavBar.js & set up to display routes
-  2. Create Form With Inputsin Form.js.
+ 
+  2. Create Form With Inputs in Form.js.
   3. Display Form in App.js
   4. Create display info in VerseForm.js
   5. Fetch data in OldTestament.js and pass it to VerseForm.js. Make sure it is displaying on page.
