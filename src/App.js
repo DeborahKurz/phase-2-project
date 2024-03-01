@@ -14,9 +14,9 @@ function App() {
 
   console.log(versesArray);
 
-  // function addVerse(newVerse){
-  //   setVersesArray([...movies, newMovie]) // Updating movies state.
-  //   }
+  function addVerse(newVerse){
+    setVersesArray([...versesArray, newVerse])
+  }
 
   return (
     <div className="App">
@@ -24,7 +24,7 @@ function App() {
         <NavBar />  
       </header>
       <main>
-        <Form />
+        <Form onAddVerse={addVerse}/>
       </main>
     </div>
   );

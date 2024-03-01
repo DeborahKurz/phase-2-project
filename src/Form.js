@@ -1,15 +1,7 @@
-//(Is the form that takes in form data to add to the verses array)
-//  2. Create Form With Inputs in Form.js.
-/*
-    input fields
-    text to say what to type... placeholder?
-    button for submitting form
-    controlled inputs
-*/
 import React, {useState} from "react";
 import './App.css';
 
-function Form(){
+function Form({onAddVerse}){
     const [testament, setTestament] = useState("");
     const [reference, setReference] = useState("");
     const [verse, setVerse] = useState("");
@@ -30,24 +22,18 @@ function Form(){
                 }
             )
         }
-        console.log("configObj: ", configObj)
 
         fetch("http://localhost:3000/verses", configObj)
         .then(r=>r.json())
-        .then(data => console.log("data: ", data))
+        .then(verseObj => {
+            onAddVerse(verseObj);
+            
+            setTestament("");
+            setReference("");
+            setVerse("");
+            setUrl("");
+        })
     }
-
-    console.log(testament, reference, verse, url);
-
-    /*              
-    //in Form
-
-        fetch('http://localhost:3000/movies', configObj)
-        .then(res => res.json())
-        .then(data => addMovie(data)) //THIS STATE UPDATE IS REQUIRED!!!
-        // clear form
-
-    */
 
     return (
         <div className="App">
