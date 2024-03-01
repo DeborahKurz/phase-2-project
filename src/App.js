@@ -13,7 +13,7 @@ export default App;
 //COMMIT commit Commit!
 
 /*
-Define data in db.json
+
 create routes.js file and define routes (3 needed):
   1."Home" aka App.js "/"  
   2. Old Testament Tab "/oldtestament"
@@ -52,8 +52,9 @@ Get Project Working:
               .then(res => res.json())
               .then(data => addMovie(data)) //THIS STATE UPDATE IS REQUIRED!!!
               // clear form
+  10. Create ErrorPage.js
+  11. See where we need to go from here.
 
-  10. See where we need to go from here.
 
 Additionally:
   1. Create a CSS file to style
