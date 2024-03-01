@@ -13,14 +13,8 @@ export default App;
 //COMMIT commit Commit!
 
 /*
-
-finish setting up routes in index.js
 Create Components (5 needed):
-  (DONE) 1. App.js
-  2. OldTestament.js  (Displays Old Testament Verses)
-  3. NewTestament.js  (Displays New Testament Verses)
-  4. Form.js   (Is the form that takes in form data to add to the verses array)
-  5. VerseCard.js  (Displays the verses inside the Old and New Testament components)
+
 Get Project Working:
   1. Create NavBar.js & set up to display routes
   2. Create Form With Inputsin Form.js.
