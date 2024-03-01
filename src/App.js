@@ -1,8 +1,23 @@
 import './App.css';
+import React, {useState, useEffect} from "react";
 import NavBar from "./NavBar.js";
 import Form from "./Form.js";
 
 function App() {
+  const [versesArray, setVersesArray] = useState([]);
+
+  useEffect(()=>{
+    fetch("http://localhost:3000/verses")
+    .then(r=>r.json())
+    .then(verses => setVersesArray(verses))
+  }, [])
+
+  console.log(versesArray);
+
+  // function addVerse(newVerse){
+  //   setVersesArray([...movies, newMovie]) // Updating movies state.
+  //   }
+
   return (
     <div className="App">
       <header>
@@ -37,17 +52,6 @@ Get Project Working:
               setMovies([...movies, newMovie]) // Updating movies state.
               }
 
-              //in Form
-              const configObj = {
-              method: 'POST',
-              headers: {'Content-Type': 'application/json'},
-              body: JSON.stringify({title: "Titanic"})
-              }
-
-              fetch('http://localhost:3000/movies', configObj)
-              .then(res => res.json())
-              .then(data => addMovie(data)) //THIS STATE UPDATE IS REQUIRED!!!
-              // clear form
   10. Create ErrorPage.js
   11. See where we need to go from here.
 
