@@ -9,10 +9,8 @@ function NewTestament(){
     useEffect(()=>{
         fetch("http://localhost:3000/verses")
         .then(r=>r.json())
-        .then(verses => console.log(verses))
+        .then(verses => setVerses(verses))
       }, [])
-
-      console.log("Verses: ", verses)
 
     return (
         <div className="App">
@@ -21,7 +19,7 @@ function NewTestament(){
             </header>
             <main>
                 {verses.map((verse)=>(
-                    <VerseCard key={verses} verse={verse} />
+                    <VerseCard key={verse.reference} verse={verse} />
                 ))}
             </main>
         </div>
