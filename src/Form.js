@@ -10,7 +10,6 @@ import React, {useState} from "react";
 import './App.css';
 
 function Form(){
-    console.log("form")
     const [testament, setTestament] = useState("");
     const [reference, setReference] = useState("");
     const [verse, setVerse] = useState("");
@@ -18,18 +17,30 @@ function Form(){
 
     function handleSubmit(e){
         e.preventDefault();
-        console.log("handleSubmit")
+
+        const configObj = {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify(
+                {
+                    testament: testament,
+                    reference: reference,
+                    verse: verse,
+                    url: url
+                }
+            )
+        }
+        console.log("configObj: ", configObj)
+
+        fetch("http://localhost:3000/verses", configObj)
+        .then(r=>r.json())
+        .then(data => console.log("data: ", data))
     }
 
     console.log(testament, reference, verse, url);
 
     /*              
     //in Form
-        const configObj = {
-        method: 'POST',
-        headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify({title: "Titanic"})
-        }
 
         fetch('http://localhost:3000/movies', configObj)
         .then(res => res.json())

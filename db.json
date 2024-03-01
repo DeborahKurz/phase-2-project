@@ -34,6 +34,13 @@
       "reference": "Romans 3:23-24 NLT",
       "verse": "For everyone has sinned; we  all fall short of God's glorious standard. Yet God, in His grace, feely makes us right in His sight. He did this through Christ Jesus when He freed us from the penalty for our sins.",
       "url": "https://www.biblegateway.com/passage/?search=Romans%203%3A23-24&version=NLT"
+    },
+    {
+      "testament": "New",
+      "reference": "John 3:16",
+      "verse": "For God So loved the world...",
+      "url": "https://example.com",
+      "id": 6
     }
   ]
 }
