@@ -12,8 +12,6 @@ function App() {
     .then(verses => setVersesArray(verses))
   }, [])
 
-  console.log(versesArray);
-
   function addVerse(newVerse){
     setVersesArray([...versesArray, newVerse])
   }
@@ -37,20 +35,11 @@ export default App;
 /*
 
 Get Project Working:
- 
-  2. Create Form With Inputs in Form.js.
-  3. Display Form in App.js
-  4. Create display info in VerseForm.js
+
+  4. Create display info in VerseCard.js
   5. Fetch data in OldTestament.js and pass it to VerseForm.js. Make sure it is displaying on page.
   6. Refine OldTestament.js so it sorts through data before passing it to VerseCard.js.
   7. Copy OldTestament.js to NewTestament.js and edit so it is working.
-  8. Make Form.js a controlled form.
-  9. Create needed function in app.js and pass to Form.js. Get App.js working properly with Form.js info (POST request).
-    ->Use this information from our class info on the final project:
-              // in App:
-              function addMovie(newMovie){
-              setMovies([...movies, newMovie]) // Updating movies state.
-              }
 
   10. Create ErrorPage.js
   11. See where we need to go from here.
