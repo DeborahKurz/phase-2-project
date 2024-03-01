@@ -1,6 +1,3 @@
-//(Displays the verses inside the Old and New Testament components)
-//  4. Create display info in VerseCard.js
-
 function VerseCard({verse}){
     return (
         <div>

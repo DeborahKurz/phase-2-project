@@ -1,4 +1,3 @@
-//displays old testament verses
 import React, {useState, useEffect} from "react";
 import NavBar from "./NavBar.js";
 import VerseCard from "./VerseCard.js";
@@ -15,6 +14,7 @@ function OldTestament(){
                 })
             setVerses(oldT);
         })
+        .catch((error) => console.error(error));
       }, [])
 
     return (

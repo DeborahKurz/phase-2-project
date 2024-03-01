@@ -10,6 +10,7 @@ function App() {
     fetch("http://localhost:3000/verses")
     .then(r=>r.json())
     .then(verses => setVersesArray(verses))
+    .catch((error) => console.error(error));
   }, [])
 
   function addVerse(newVerse){
