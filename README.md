@@ -16,13 +16,19 @@ This project meets several requirements for my Phase-2 Project at Flatiron's Sch
 
 A POST request was used to add new a new Bible verse to the array of "saved" Bible verses.
 
-Components include:
-//INCLUDE
+My 5 Components Included:
+1. App
+2. Form
+3. OldTestament
+4. NewTestament
+5. VerseCard
 
-Routes include:
-//INCLUDE
+My Routes Included:
+1. "/" leads to the App component
+2. "/oldtestament" leads to the OldTestament component
+3. "/newtestament" leads to the NewTestament component
 
-//Edit  Below
+//////////////Edit  Below
 
 At the top of this page a user can toggle between light and dark mode. This will also change the page's text so it is white (dark mode) or black (light mode).
 
