@@ -34,24 +34,12 @@ export default App;
 //COMMIT commit Commit!
 
 /*
-
-Get Project Working:
-
-  4. Create display info in VerseCard.js
-  5. Fetch data in OldTestament.js and pass it to VerseForm.js. Make sure it is displaying on page.
-  6. Refine OldTestament.js so it sorts through data before passing it to VerseCard.js.
-  7. Copy OldTestament.js to NewTestament.js and edit so it is working.
-
-  10. Create ErrorPage.js
-  11. See where we need to go from here.
-
-
 Additionally:
-  1. Create a CSS file to style
+  1. Create a CSS file to style  
   2. Create an index.html file
   3. Write the README file.
-
-
+  4. Create component that fetches data, sorts it into new and old testament and passes this info to OldTestament.js & NewTestament.js??? This way we are not repeating ourselves in both files.
+  5. Use Context to pass info from App.js to file mentioned above?
 
 
 Hierarchy:

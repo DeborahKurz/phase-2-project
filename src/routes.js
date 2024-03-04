@@ -1,19 +1,24 @@
 import App from "./App.js";
-import NewTestament from "./NewTestament.js"
-import OldTestament from "./OldTestament.js"
+import NewTestament from "./NewTestament.js";
+import OldTestament from "./OldTestament.js";
+import ErrorPage from "./ErrorPage.js";
+
 
 const routes = [
     {
         path: "/",
-        element: <App />
+        element: <App />,
+        errorElement: <ErrorPage />
     },
     {
         path: "/oldtestament",
-        element: <OldTestament />
+        element: <OldTestament />,
+        errorElement: <ErrorPage />
     },
     {
         path: "/newtestament",
-        element: <NewTestament />
+        element: <NewTestament />,
+        errorElement: <ErrorPage />
     }
 ]
 
