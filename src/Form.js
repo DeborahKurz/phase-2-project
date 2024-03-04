@@ -39,10 +39,14 @@ function Form({onAddVerse}){
         <div className="App">
             <h4>Save Your Verse Here:</h4>
             <form onSubmit={handleSubmit}>
-                <input type="text" value={testament} placeholder={"Type 'Old' or 'New'"} onChange={(e)=> setTestament(e.target.value)}></input>
-                <input type="text" value={reference} placeholder={"Example: John 3:16"} onChange={(e)=> setReference(e.target.value)}></input>
-                <input type="text" value={verse} placeholder={"Example: For God so loved the world... "} onChange={(e)=> setVerse(e.target.value)}></input>
-                <input type="text" value={url} placeholder={"Paste the URL here"} onChange={(e)=> setUrl(e.target.value)}></input>
+                <input type="text" value={testament} placeholder={"Type 'Old' or 'New'"} onChange={(e)=> setTestament(e.target.value)} className="form"></input>
+                <br></br>
+                <input type="text" value={reference} placeholder={"Example: John 3:16"} onChange={(e)=> setReference(e.target.value)} className="form"></input>
+                <br></br>
+                <input type="text" value={verse} placeholder={"Example: For God so loved the world... "} onChange={(e)=> setVerse(e.target.value)} className="form"></input>
+                <br></br>
+                <input type="text" value={url} placeholder={"Paste the URL here"} onChange={(e)=> setUrl(e.target.value)} className="form"></input>
+                <br></br>
                 <button>Add My Verse!</button>
             </form>
         </div>

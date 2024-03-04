@@ -35,11 +35,9 @@ export default App;
 
 /*
 Additionally:
-  1. Create a CSS file to style  
-  2. Create an index.html file
   3. Write the README file.
-  4. Create component that fetches data, sorts it into new and old testament and passes this info to OldTestament.js & NewTestament.js??? This way we are not repeating ourselves in both files.
-  5. Use Context to pass info from App.js to file mentioned above?
+  4. ???Create component that fetches data, sorts it into new and old testament and passes this info to OldTestament.js & NewTestament.js??? This way we are not repeating ourselves in both files.
+  5. ???Use Context to pass info from App.js to file mentioned above?
 
 
 Hierarchy:
