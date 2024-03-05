@@ -48,6 +48,13 @@
       "verse": "In The Beginning...",
       "url": "",
       "id": 7
+    },
+    {
+      "testament": "New",
+      "reference": "John 1:1",
+      "verse": "In the beginning was the Word...",
+      "url": "",
+      "id": 8
     }
   ]
 }

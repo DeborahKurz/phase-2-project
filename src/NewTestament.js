@@ -25,7 +25,7 @@ function NewTestament(){
             <main>
                 <h2> Your Saved New Testament Verses: </h2>
                 {verses.map((verse)=>(
-                    <VerseCard key={verse.reference} verse={verse} />
+                    <VerseCard key={verse.id} verse={verse} />
                 ))}
             </main>
         </div>
