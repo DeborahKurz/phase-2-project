@@ -33,29 +33,14 @@ On the "home" page, a user will see a form that allows them to add their favorit
 ![Form Demo](https://github.com/DeborahKurz/phase-2-project/blob/main/READMEGifs/form.gif)
 
 
-/////////////Edit  Below
+A user can utilize the navigation bar above the form (gray buttons), to navigate between the saved Old Testament and New Testament verses. These pages will display the information on each verse the order that they were added to the Bible Verse Keeper.
 
-The race event buttons have mouseover and mouseout event listeners that change the color of the button, and the button's text color, while the mouse is over the card.
+![Navigation Bar and Pages Demo](https://github.com/DeborahKurz/phase-2-project/blob/main/READMEGifs/navBar.gif)
 
-![Mouseover Demo](ReadMeGifs/MouseOverGif.gif)
-
-
-
-
-When a race event button is clicked, the athletes associated with that event will appear on the screen.
-
-![Race Event Buttons Demo](ReadMeGifs/ButtonListenerGif.gif)
-
-
-
-
-If a user is does not want to see one of the athletes, there is a "close" button on the div with the athlete's information. Clicking this button will remove the athlete's information from the page.
-
-![Close Button Demo](ReadMeGifs/CloseButton.gif)
 
 # Credits
 
 
-CSS & HTML TOGGLE SWITCH STYLING
-I learned how to create a toggle switch using w3schools.com. My finished toggle closely resembles their example and CSS/HTML code:
-https://www.w3schools.com/howto/howto_css_switch.asp
+CSS STYLING
+I based some of my index.css styling off of Flatiron School's React Hooks React Router Routes Lab's CSS styling:
+https://github.com/learn-co-curriculum/react-hooks-react-router-routes-lab-v6
