@@ -28,14 +28,12 @@ My Routes Included:
 2. "/oldtestament" leads to the OldTestament component
 3. "/newtestament" leads to the NewTestament component
 
-//////////////Edit  Below
-
 On the "home" page, a user will see a form that allows them to add their favorite verses. The form asks for: 1. Which testament the verse is located in. 2. The reference. 3. The verse itself. 4. A URL for reference purposes.
 
-![Form Demo](READMEGifs/Form.gif)
+![Form Demo](./public/READMEGifs/form.gif)
 
 
-
+/////////////Edit  Below
 
 The race event buttons have mouseover and mouseout event listeners that change the color of the button, and the button's text color, while the mouse is over the card.
 
