@@ -8,18 +8,18 @@ const routes = [
     {
         path: "/",
         element: <App />,
-        errorElement: <ErrorPage />
+        errorElement: <ErrorPage />,
+        children: [
+            {
+                path: "/oldtestament",
+                element: <OldTestament />,
+            },
+            {
+                path: "/newtestament",
+                element: <NewTestament />,
+            }
+        ]
     },
-    {
-        path: "/oldtestament",
-        element: <OldTestament />,
-        errorElement: <ErrorPage />
-    },
-    {
-        path: "/newtestament",
-        element: <NewTestament />,
-        errorElement: <ErrorPage />
-    }
 ]
 
 export default routes;
