@@ -19,9 +19,6 @@ function NewTestament(){
 
     return (
         <div className="App">
-            <header>
-                <NavBar />  
-            </header>
             <main>
                 <h2> Your Saved New Testament Verses: </h2>
                 {verses.map((verse)=>(

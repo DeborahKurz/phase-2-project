@@ -19,9 +19,6 @@ function OldTestament(){
 
     return (
         <div className="App">
-            <header>
-                <NavBar />  
-            </header>
             <main>
                 <h2> Your Saved Old Testament Verses: </h2>
                 {verses.map((verse)=>(
