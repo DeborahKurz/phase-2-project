@@ -1,30 +1,23 @@
-import React, {useState, useEffect} from "react";
-import NavBar from "./NavBar.js";
+import React from "react";
+import {Outlet, useOutletContext} from "react-router-dom";
 import VerseCard from "./VerseCard.js";
 
 function OldTestament(){
-    const [verses, setVerses] = useState([]);
+    const {addVerse, versesArray} = useOutletContext();
 
-    useEffect(()=>{
-        fetch("http://localhost:3000/verses")
-        .then(r=>r.json())
-        .then(verses => {
-            const oldT = verses.filter((verse)=>{
-                return verse.testament.toLowerCase() === "old"
-                })
-            setVerses(oldT);
-        })
-        .catch((error) => console.error(error));
-      }, [])
+    const verses = versesArray.filter((verse)=>{
+        return verse.testament.toLowerCase() === "old"
+    });
 
     return (
         <div className="App">
             <main>
                 <h2> Your Saved Old Testament Verses: </h2>
                 {verses.map((verse)=>(
-                    <VerseCard key={verse.id} verse={verse} />
-                ))}
+                    <VerseCard key={verse.id} verse={verse}/>
+                ))}  
             </main>
+            <Outlet />
         </div>
     )
 }

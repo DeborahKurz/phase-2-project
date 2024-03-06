@@ -90,6 +90,20 @@
       "verse": "In the beginning God created the heavens and the Earth",
       "url": "https://example.com",
       "id": 13
+    },
+    {
+      "testament": "New",
+      "reference": "Romans 3:23",
+      "verse": "For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord.",
+      "url": "https:// example .com",
+      "id": 14
+    },
+    {
+      "testament": "Old",
+      "reference": "Joshua 1:9",
+      "verse": "The Lord said, \"Be strong and courageous. Do not be afraid or dismayed.\"",
+      "url": "",
+      "id": 15
     }
   ]
 }
