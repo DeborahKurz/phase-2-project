@@ -2,6 +2,7 @@ import './App.css';
 import React, {useState, useEffect} from "react";
 import NavBar from "./NavBar.js";
 import Form from "./Form.js";
+import {Outlet} from "react-router-dom";
 
 function App() {
   const [versesArray, setVersesArray] = useState([]);
@@ -25,6 +26,7 @@ function App() {
       <main>
         <Form onAddVerse={addVerse}/>
       </main>
+      <Outlet />
     </div>
   );
 }
