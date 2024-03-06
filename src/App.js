@@ -23,10 +23,7 @@ function App() {
       <header>
         <NavBar />  
       </header>
-      <main>
-        <Form onAddVerse={addVerse}/>
-      </main>
-      <Outlet />
+      <Outlet context={addVerse} />
     </div>
   );
 }

@@ -1,7 +1,10 @@
 import React, {useState} from "react";
+import {Outlet, useOutletContext} from "react-router-dom";
 import './App.css';
 
-function Form({onAddVerse}){
+function Form(){
+    const onAddVerse = useOutletContext();
+
     const [testament, setTestament] = useState("");
     const [reference, setReference] = useState("");
     const [verse, setVerse] = useState("");
