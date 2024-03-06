@@ -36,74 +36,32 @@
       "url": "https://www.biblegateway.com/passage/?search=Romans%203%3A23-24&version=NLT"
     },
     {
-      "testament": "New",
-      "reference": "John 3:16",
-      "verse": "For God So loved the world...",
-      "url": "https://example.com",
+      "testament": "Old",
+      "reference": "Joshua 1:9 NLT",
+      "verse": "This is my command—be strong and courageous! Do not be afraid or discouraged. For the Lord your God is with you wherever you go.”",
+      "url": "https://www.biblegateway.com/passage/?search=Joshua%201%3A9&version=NLT",
       "id": 6
     },
     {
-      "testament": "Old",
-      "reference": "Genesis 1:1",
-      "verse": "In The Beginning...",
-      "url": "",
+      "testament": "New",
+      "reference": "John 3:16 NLT",
+      "verse": "For this is how God loved the world: He gave his one and only Son, so that everyone who believes in him will not perish but have eternal life.",
+      "url": "https://www.biblegateway.com/passage/?search=John+3%3A16&version=NLT",
       "id": 7
     },
     {
       "testament": "New",
       "reference": "John 1:1",
-      "verse": "In the beginning was the Word...",
-      "url": "",
+      "verse": "In the beginning the Word already existed.     The Word was with God,     and the Word was God.",
+      "url": "https://www.biblegateway.com/passage/?search=John+1%3A1&version=NLT",
       "id": 8
     },
     {
-      "testament": "New",
-      "reference": "John 1:1",
-      "verse": "In the Beginning was the Word...",
-      "url": "",
+      "testament": "Old",
+      "reference": "Genesis 1:1 NLT",
+      "verse": "In the beginning God created the heavens and the earth.",
+      "url": "https://www.biblegateway.com/passage/?search=Genesis+1%3A1&version=NLT",
       "id": 9
-    },
-    {
-      "testament": "New",
-      "reference": "John 1:1",
-      "verse": "In the Beginning was the Word...",
-      "url": "",
-      "id": 10
-    },
-    {
-      "testament": "New",
-      "reference": "John 1:1",
-      "verse": "In the Beginning was the Word...",
-      "url": "",
-      "id": 11
-    },
-    {
-      "testament": "New",
-      "reference": "John 3:16",
-      "verse": "For God so loved the world that He gave His only begotten Son...",
-      "url": "",
-      "id": 12
-    },
-    {
-      "testament": "Old",
-      "reference": "Genesis 1:1",
-      "verse": "In the beginning God created the heavens and the Earth",
-      "url": "https://example.com",
-      "id": 13
-    },
-    {
-      "testament": "New",
-      "reference": "Romans 3:23",
-      "verse": "For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord.",
-      "url": "https:// example .com",
-      "id": 14
-    },
-    {
-      "testament": "Old",
-      "reference": "Joshua 1:9",
-      "verse": "The Lord said, \"Be strong and courageous. Do not be afraid or dismayed.\"",
-      "url": "",
-      "id": 15
     }
   ]
 }

@@ -30,9 +30,9 @@ My Routes Included:
 
 //////////////Edit  Below
 
-At the top of this page a user can toggle between light and dark mode. This will also change the page's text so it is white (dark mode) or black (light mode).
+On the "home" page, a user will see a form that allows them to add their favorite verses. The form asks for: 1. Which testament the verse is located in. 2. The reference. 3. The verse itself. 4. A URL for reference purposes.
 
-![Toggle Demo](ReadMeGifs/ToggleGif.gif)
+![Form Demo](READMEGifs/Form.gif)
 
 
 
