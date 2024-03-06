@@ -23,7 +23,7 @@ function App() {
       <header>
         <NavBar />  
       </header>
-      <Outlet context={addVerse} />
+      <Outlet context={{addVerse: addVerse,  versesArray: versesArray}} />
     </div>
   );
 }

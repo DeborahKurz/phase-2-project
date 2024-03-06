@@ -3,7 +3,7 @@ import {Outlet, useOutletContext} from "react-router-dom";
 import './App.css';
 
 function Form(){
-    const onAddVerse = useOutletContext();
+    const {addVerse, versesArray} = useOutletContext();
 
     const [testament, setTestament] = useState("");
     const [reference, setReference] = useState("");
@@ -29,7 +29,7 @@ function Form(){
         fetch("http://localhost:3000/verses", configObj)
         .then(r=>r.json())
         .then(verseObj => {
-            onAddVerse(verseObj);
+            addVerse(verseObj);
             
             setTestament("");
             setReference("");
@@ -52,6 +52,7 @@ function Form(){
                 <br></br>
                 <button>Add My Verse!</button>
             </form>
+            <Outlet />
         </div>
     )
 }
