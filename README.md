@@ -30,7 +30,7 @@ My Routes Included:
 
 On the "home" page, a user will see a form that allows them to add their favorite verses. The form asks for: 1. Which testament the verse is located in. 2. The reference. 3. The verse itself. 4. A URL for reference purposes.
 
-![Form Demo](public/READMEGifs/form.gif)
+![Form Demo](https://github.com/DeborahKurz/phase-2-project/blob/main/READMEGifs/form.gif)
 
 
 /////////////Edit  Below
