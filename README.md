@@ -40,7 +40,5 @@ A user can utilize the navigation bar above the form (gray buttons), to navigate
 
 # Credits
 
-
-CSS STYLING
 I based some of my index.css styling off of Flatiron School's React Hooks React Router Routes Lab's CSS styling:
 https://github.com/learn-co-curriculum/react-hooks-react-router-routes-lab-v6
