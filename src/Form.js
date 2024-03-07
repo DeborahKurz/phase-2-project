@@ -40,7 +40,7 @@ function Form(){
 
     return (
         <div className="App">
-            <h4>Save Your Verse Here:</h4>
+            <h2>Save Your Verse Here:</h2>
             <form onSubmit={handleSubmit}>
                 <input type="text" value={testament} placeholder={"Type 'Old' or 'New'"} onChange={(e)=> setTestament(e.target.value)} className="form"></input>
                 <br></br>
