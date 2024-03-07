@@ -5,9 +5,7 @@ import VerseCard from "./VerseCard.js";
 function OldTestament(){
     const {addVerse, versesArray} = useOutletContext();
 
-    const verses = versesArray.filter((verse)=>{
-        return verse.testament.toLowerCase() === "old"
-    });
+    const verses = versesArray.filter((verse) => verse.testament.toLowerCase() === "old");
 
     return (
         <div className="App">
