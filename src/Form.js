@@ -5,14 +5,13 @@ import './App.css';
 function Form(){
     const {addVerse,} = useOutletContext();
 
-            const [testament, setTestament] = useState("");
-            const [reference, setReference] = useState("");
-            const [verse, setVerse] = useState("");
-            const [url, setUrl] = useState("");
+    const [testament, setTestament] = useState("");
+    const [reference, setReference] = useState("");
+    const [verse, setVerse] = useState("");
+    const [url, setUrl] = useState("");
 
     function handleSubmit(e){
         e.preventDefault();
-
         const configObj = {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
@@ -25,7 +24,6 @@ function Form(){
                 }
             )
         }
-
         fetch("http://localhost:3000/verses", configObj)
         .then(r=>r.json())
         .then(verseObj => {
