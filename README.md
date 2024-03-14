@@ -8,7 +8,7 @@ This project stores verses in a local db.json file, and makes GET and POST reque
 Before you do anything with this project (including view it), you will need to start the JSON server on your computer. Here are the steps:
 1. Open your terminal
 2. Type in your terminal: $ json-server --watch db.json
-3. When the server is running you can open the project. To view this project in your browser, type inthe project terminal: $ npm start
+3. When the server is running you can open the project. To view this project in your browser, open another project terminal and type in: $ npm start
 4. Make sure you have react router v6 installed: $ npm install  react-router-dom@6
 
 # Features

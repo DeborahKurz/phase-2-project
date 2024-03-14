@@ -1,14 +1,14 @@
 import React, {useState} from "react";
-import {Outlet, useOutletContext} from "react-router-dom";
+import {useOutletContext} from "react-router-dom";
 import './App.css';
 
 function Form(){
-    const {addVerse, versesArray} = useOutletContext();
+    const {addVerse,} = useOutletContext();
 
-    const [testament, setTestament] = useState("");
-    const [reference, setReference] = useState("");
-    const [verse, setVerse] = useState("");
-    const [url, setUrl] = useState("");
+            const [testament, setTestament] = useState("");
+            const [reference, setReference] = useState("");
+            const [verse, setVerse] = useState("");
+            const [url, setUrl] = useState("");
 
     function handleSubmit(e){
         e.preventDefault();
@@ -52,7 +52,6 @@ function Form(){
                 <br></br>
                 <button>Add My Verse!</button>
             </form>
-            <Outlet />
         </div>
     )
 }

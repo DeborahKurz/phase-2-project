@@ -1,9 +1,8 @@
-import React from "react";
-import {Outlet, useOutletContext} from "react-router-dom";
+import {useOutletContext} from "react-router-dom";
 import VerseCard from "./VerseCard.js";
 
 function OldTestament(){
-    const {addVerse, versesArray} = useOutletContext();
+    const {versesArray} = useOutletContext();
 
     const verses = versesArray.filter((verse) => verse.testament.toLowerCase() === "old");
 
@@ -15,7 +14,6 @@ function OldTestament(){
                     <VerseCard key={verse.id} verse={verse}/>
                 ))}  
             </main>
-            <Outlet />
         </div>
     )
 }
