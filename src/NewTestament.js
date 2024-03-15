@@ -1,21 +1,23 @@
-import {useOutletContext} from "react-router-dom";
-import VerseCard from "./VerseCard.js";
+//>Not using. Combined "NewTestament.js" & "OldTestament.js" files.
 
-function NewTestament(){
-    const {versesArray} = useOutletContext();
+// import {useOutletContext} from "react-router-dom";
+// import VerseCard from "./VerseCard.js";
 
-    const verses = versesArray.filter((verse) => verse.testament.toLowerCase() === "new");
+// function NewTestament(){
+//     const {versesArray} = useOutletContext();
 
-    return (
-        <div className="App">
-            <main>
-                <h2> Your Saved New Testament Verses: </h2>
-                {verses.map((verse)=>(
-                    <VerseCard key={verse.id} verse={verse}/>
-                ))}  
-            </main>
-        </div>
-    )
-}
+//     const verses = versesArray.filter((verse) => verse.testament.toLowerCase() === "new");
 
-export default NewTestament;
+//     return (
+//         <div className="App">
+//             <main>
+//                 <h2> Your Saved New Testament Verses: </h2>
+//                 {verses.map((verse)=>(
+//                     <VerseCard key={verse.id} verse={verse}/>
+//                 ))}  
+//             </main>
+//         </div>
+//     )
+// }
+
+// export default NewTestament;

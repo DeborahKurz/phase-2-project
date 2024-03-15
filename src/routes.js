@@ -1,8 +1,9 @@
 import App from "./App.js";
 import Form from "./Form.js";
 import NewTestament from "./NewTestament.js";
-import OldTestament from "./OldTestament.js";
+import OldTestament from "./Testament.js";
 import ErrorPage from "./ErrorPage.js";
+import Testament from './Testament.js'
 
 
 const routes = [
@@ -17,11 +18,11 @@ const routes = [
             },
             {
                 path: "/oldtestament",
-                element: <OldTestament />,
+                element: <Testament />,
             },
             {
                 path: "/newtestament",
-                element: <NewTestament />,
+                element: <Testament />,
             }
         ]
     },
